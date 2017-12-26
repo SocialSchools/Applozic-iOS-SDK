@@ -25,7 +25,7 @@
 #import "ALContact.h"
 #import "ALUserDefaultsHandler.h"
 #import "ALContactDBService.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALColorUtility.h"
 #import "ALMQTTConversationService.h"
 #import "ALApplozicSettings.h"
