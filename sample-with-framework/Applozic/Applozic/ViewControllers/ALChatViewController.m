@@ -24,7 +24,7 @@
 #import "ALImageCell.h"
 #import "ALFileMetaInfo.h"
 #import "DB_FileMetaInfo.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALConnection.h"
 #import "ALConnectionQueueHandler.h"
 #import "ALRequestHandler.h"
