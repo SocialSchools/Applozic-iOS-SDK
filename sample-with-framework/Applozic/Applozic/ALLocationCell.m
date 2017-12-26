@@ -12,7 +12,7 @@
 
 #import "ALLocationCell.h"
 #import "Applozic.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALMessageInfoViewController.h"
 
 @implementation ALLocationCell

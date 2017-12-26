@@ -7,7 +7,7 @@
 //
 
 #import "ALVideoCell.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "ALMessageInfoViewController.h"

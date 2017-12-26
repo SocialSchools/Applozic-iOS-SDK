@@ -10,7 +10,7 @@
 #import "ALChatViewController.h"
 #import "ALChannel.h"
 #import "ALApplozicSettings.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALMessagesViewController.h"
 #import "ALNotificationView.h"
 #import "ALDataNetworkConnection.h"

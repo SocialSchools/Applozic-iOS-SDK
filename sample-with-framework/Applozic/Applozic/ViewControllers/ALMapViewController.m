@@ -11,7 +11,7 @@
 #import "ALApplozicSettings.h"
 #import "ALDataNetworkConnection.h"
 #import "TSMessage.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALMessage.h"
 #import "ALUtilityClass.h"
 
