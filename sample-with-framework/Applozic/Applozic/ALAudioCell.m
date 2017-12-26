@@ -7,7 +7,7 @@
 //
 
 #import "ALAudioCell.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALMediaPlayer.h"
 #import "ALMessageInfoViewController.h"
 #import "ALChatViewController.h"

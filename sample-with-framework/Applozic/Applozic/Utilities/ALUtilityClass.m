@@ -18,7 +18,7 @@
 #import "ALUserDefaultsHandler.h"
 #import "ALContactDBService.h"
 #import "ALContact.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @implementation ALUtilityClass
 
