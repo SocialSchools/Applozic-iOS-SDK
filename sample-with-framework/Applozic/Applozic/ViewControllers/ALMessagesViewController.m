@@ -149,16 +149,16 @@
 -(void)viewDidDisappear:(BOOL)animated
 {
     BOOL profileFlag = NO;
-    UIViewController *VC = self.tabBarController.selectedViewController;
-    UINavigationController *navVC = (UINavigationController *)VC;
-    
-    for(UIViewController *VC in navVC.viewControllers)
-    {
-        if([NSStringFromClass([VC class]) isEqualToString:@"ALUserProfileVC"])
-        {
-            profileFlag = YES;
-        }
-    }
+//    UIViewController *VC = self.tabBarController.selectedViewController;
+//    UINavigationController *navVC = (UINavigationController *)VC;
+//    
+//    for(UIViewController *VC in navVC.viewControllers)
+//    {
+//        if([NSStringFromClass([VC class]) isEqualToString:@"ALUserProfileVC"])
+//        {
+//            profileFlag = YES;
+//        }
+//    }
     
     if (self.navigationController.viewControllers.count == 1 && !profileFlag)
     {
