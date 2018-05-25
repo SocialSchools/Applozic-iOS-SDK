@@ -1474,7 +1474,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D6DF0851BC535C800EBA00F /* Build configuration list for PBXNativeTarget "Applozic" */;
 			buildPhases = (
-				6DAA09DB1BE4AD8800CBF133 /* carthage copy-frameworks */,
 				6D6DF0781BC535C800EBA00F /* Sources */,
 				6D6DF0791BC535C800EBA00F /* Frameworks */,
 				6D6DF07A1BC535C800EBA00F /* Headers */,
@@ -1539,26 +1538,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6DAA09DB1BE4AD8800CBF133 /* carthage copy-frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../../../../Carthage/Build/iOS/SDWebImage.framework",
-			);
-			name = "carthage copy-frameworks";
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D6DF0781BC535C800EBA00F /* Sources */ = {
