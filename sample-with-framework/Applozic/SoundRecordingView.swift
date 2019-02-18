@@ -98,7 +98,8 @@ import Foundation
     {
         recordingSession = AVAudioSession.sharedInstance()
         do {
-            try recordingSession.setCategory(AVAudioSessionCategoryPlayAndRecord)
+            recordingSession.perform("setCategory:error:", with: AVAudioSession.Category.playAndRecord)
+
             try recordingSession.overrideOutputAudioPort(.speaker)
             try recordingSession.setActive(true)
             recordingSession.requestRecordPermission() {[weak self] allowed in
@@ -120,11 +121,11 @@ import Foundation
     private func checkMicrophonePermission() -> Bool {
 
         let soundSession = AVAudioSession.sharedInstance()
-        let permissionStatus = soundSession.recordPermission()
+        let permissionStatus = soundSession.recordPermission
         var isAllow = false
 
         switch (permissionStatus) {
-        case AVAudioSessionRecordPermission.undetermined:
+        case AVAudioSession.RecordPermission.undetermined:
             soundSession.requestRecordPermission({ (isGrant) in
                 if (isGrant) {
                     isAllow = true
@@ -134,11 +135,11 @@ import Foundation
                 }
             })
             break
-        case AVAudioSessionRecordPermission.denied:
+        case AVAudioSession.RecordPermission.denied:
             // direct to settings...
             isAllow = false
             break;
-        case AVAudioSessionRecordPermission.granted:
+        case AVAudioSession.RecordPermission.granted:
             // mic access ok...
             isAllow = true
             break;
@@ -203,7 +204,7 @@ import Foundation
             AVEncoderAudioQualityKey: AVAudioQuality.medium.rawValue
         ]
         do {
-            try recordingSession.setCategory(AVAudioSessionCategoryPlayAndRecord)
+            recordingSession.perform("setCategory:error:", with: AVAudioSession.Category.playAndRecord)
             try recordingSession.overrideOutputAudioPort(.speaker)
             try recordingSession.setActive(true)
             audioRecorder = try AVAudioRecorder(url: audioFilename, settings: settings)
@@ -265,7 +266,7 @@ import Foundation
 
         recordingSession = AVAudioSession.sharedInstance()
         do {
-            try recordingSession.setCategory(AVAudioSessionCategoryPlayback)
+            recordingSession.perform("setCategory:error:", with: AVAudioSession.Category.playback)
             audioPlayer = try AVAudioPlayer(contentsOf: url)
             guard let player = audioPlayer else { return }
 
