@@ -1507,10 +1507,9 @@
 			};
 			buildConfigurationList = 6D6DF0771BC535C800EBA00F /* Build configuration list for PBXProject "Applozic" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
