@@ -8,7 +8,7 @@
 
 #import "ALContactMessageBaseCell.h"
 #import "ALUtilityClass.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALApplozicSettings.h"
 #import "ALConstant.h"
 #import "ALContact.h"

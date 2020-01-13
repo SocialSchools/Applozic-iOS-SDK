@@ -7,7 +7,7 @@
 //
 
 #import "ALMessageInfoViewController.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALApplozicSettings.h"
 #import "ALDataNetworkConnection.h"
 #import "ALNotificationView.h"
