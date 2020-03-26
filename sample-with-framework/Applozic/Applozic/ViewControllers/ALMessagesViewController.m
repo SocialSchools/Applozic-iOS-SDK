@@ -170,6 +170,10 @@
         [self.dBService getMessages:self.childGroupList];
         [self.detailChatViewController setRefreshMainView:FALSE];
         [self.mTableView reloadData];
+    } else {
+        [self.dBService getMessages:self.childGroupList];
+        [self.detailChatViewController setRefreshMainView:FALSE];
+        [self.mTableView reloadData];
     }
     
     if([ALUserDefaultsHandler isNavigationRightButtonHidden])
