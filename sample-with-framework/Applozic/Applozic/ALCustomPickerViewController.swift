@@ -128,9 +128,6 @@ public class ALBaseNavigationViewController: UINavigationController {
             })
             break
         //handle authorized status
-        case .denied, .restricted :
-            break
-        //handle denied status
         case .notDetermined:
             // ask for permissions
             PHPhotoLibrary.requestAuthorization() { status in
@@ -142,13 +139,14 @@ public class ALBaseNavigationViewController: UINavigationController {
                     })
                     break
                 // as above
-                case .denied, .restricted:
-                    break
                 default: break
                     //whatever
                 }
             }
+        default: break
+            //whatever
         }
+
     }
 
     //MARK: - Access to gallery images
