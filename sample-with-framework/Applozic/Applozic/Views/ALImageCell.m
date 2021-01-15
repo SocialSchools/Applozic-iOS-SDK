@@ -8,7 +8,7 @@
 
 
 #import "ALImageCell.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALDBHandler.h"
 #import "ALContact.h"
 #import "ALContactDBService.h"
@@ -21,7 +21,7 @@
 #import "ALMessageInfoViewController.h"
 #import "ALChatViewController.h"
 #import "ALDataNetworkConnection.h"
-#import "UIImage+MultiFormat.h"
+#import <SDWebImage/UIImage+MultiFormat.h>
 #import "ALMessageClientService.h"
 #import "ALConnectionQueueHandler.h"
 #import "UIImage+animatedGIF.h"

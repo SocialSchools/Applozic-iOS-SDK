@@ -10,7 +10,7 @@
 #import "ALMessageClientService.h"
 #import "ALColorUtility.h"
 #import <UIKit/UIKit.h>
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALUtilityClass.h"
 #import "ALApplozicSettings.h"
 

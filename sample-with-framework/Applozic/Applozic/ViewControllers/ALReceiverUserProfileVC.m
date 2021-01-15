@@ -8,7 +8,7 @@
 
 #import "ALReceiverUserProfileVC.h"
 #import "ALUtilityClass.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALApplozicSettings.h"
 #import "ALMessageClientService.h"
 #import "ALUserService.h"

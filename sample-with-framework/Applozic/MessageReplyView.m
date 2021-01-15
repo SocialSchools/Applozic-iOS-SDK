@@ -7,7 +7,7 @@
 //
 
 #import "MessageReplyView.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import  "ALUtilityClass.h"
 #import "ALMessageService.h"
 #import "ALContactService.h"

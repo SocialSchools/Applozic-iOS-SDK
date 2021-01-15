@@ -12,7 +12,7 @@
 #import "ALMessage.h"
 #import "ALContactDBService.h"
 #import "ALColorUtility.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "KAProgressLabel.h"
 #import "ALUtilityClass.h"
 #import "ALMessageService.h"

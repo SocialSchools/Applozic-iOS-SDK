@@ -17,7 +17,7 @@
 #import "ALUserDefaultsHandler.h"
 #import "ALMessagesViewController.h"
 #import "ALColorUtility.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALGroupCreationViewController.h"
 #import "ALGroupDetailViewController.h"
 #import "ALContactDBService.h"

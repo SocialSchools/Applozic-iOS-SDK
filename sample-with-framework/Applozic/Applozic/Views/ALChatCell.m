@@ -9,7 +9,7 @@
 #import "ALChatCell.h"
 #import "ALUtilityClass.h"
 #import "ALConstant.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALContactDBService.h"
 #import "ALApplozicSettings.h"
 #import "ALMessageService.h"

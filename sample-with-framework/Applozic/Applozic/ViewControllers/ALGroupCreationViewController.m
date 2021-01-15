@@ -20,7 +20,7 @@
 #import "ALNotificationView.h"
 #import "ALDataNetworkConnection.h"
 #import "ALRegisterUserClientService.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALContactService.h"
 #import "ALVOIPNotificationHandler.h"
 #import "ALHTTPManager.h"

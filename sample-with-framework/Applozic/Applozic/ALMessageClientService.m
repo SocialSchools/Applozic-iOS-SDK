@@ -23,7 +23,7 @@
 #import "ALUserService.h"
 #import "NSString+Encode.h"
 #import "ALApplozicSettings.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "ALConnectionQueueHandler.h"
 #import "ALApplozicSettings.h"
 #import "SearchResultCache.h"
